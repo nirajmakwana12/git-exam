@@ -1,0 +1,81 @@
+.thirdCompoent {
+  padding: 90px 120px;
+}
+.ABOUT {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.Thirdmain {
+  height: 350px;
+}
+.Twopart {
+  padding-top: 100px !important;
+}
+.SecondPart {
+  padding-right: 80px;
+}
+.divder {
+  display: flex;
+  align-items: center;
+}
+.greyLine {
+  border-bottom: 10px solid #a9a9a9;
+  width: 28%;
+  border-radius: 20px;
+}
+
+.thinklink {
+  border-bottom: 2px solid #a9a9a9;
+  width: 12%;
+  border-radius: 20px;
+}
+
+.h2 {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.parger {
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .thirdCompoent {
+    padding: 90px 60px;
+  }
+  .MuiGrid-item {
+    padding-left: 0px;
+  }
+  .Twopart {
+    padding-top: 20px !important;
+  }
+  .ABOUT {
+    text-align: center;
+  }
+  .greyLine {
+    width: 24%;
+  }
+  .thinklink {
+    width: 12%;
+  }
+  .divder {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .Thirdmain {
+    width: 90%;
+    height: 200px;
+  }
+  .thirdCompoent {
+    padding: 20px 20px;
+    text-align: center;
+  }
+  .greyLine {
+    width: 40%;
+  }
+  .thinklink{
+    width: 20%;
+  }
+}

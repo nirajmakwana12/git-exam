@@ -1,0 +1,65 @@
+.Communications {
+  position: relative;
+}
+
+.CommunicationsContiner {
+  position: relative;
+  padding: 90px 100px;
+}
+.lighblue {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.boyGirlContainer {
+  text-align: right;
+}
+
+.CommunicationsBlue {
+  position: absolute;
+  right: 0;
+  bottom: -80px;
+}
+
+.CommunicationsText {
+  padding-right: 120px;
+}
+
+@media only screen and (max-width: 768px) {
+  .CommunicationsBlue {
+    display: none;
+  }
+  .Communications {
+    padding-top: 80px;
+  }
+  .CommunicationsText {
+    padding: 20px 20px;
+    text-align: center;
+  }
+  .CommunicationsContiner {
+    display: flex;
+    flex-direction: column-reverse !important;
+    padding: 90px 20px;
+  }
+  .boyGirlContainer {
+    text-align: unset;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .girlBoy {
+    width: 90%;
+    text-align: unset;
+  }
+  .CommunicationsContiner {
+    padding: 30px 40px;
+  }
+  .CommunicationsText{
+    padding: 0;
+  }
+  .Communications{
+    padding: 30px 0;
+  }
+}

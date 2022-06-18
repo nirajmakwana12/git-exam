@@ -1,0 +1,21 @@
+.Consultationperple {
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+}
+
+.ConsulationContiner {
+  position: relative;
+  padding: 90px 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .ConsulationContiner {
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+  .Consultationperple{
+    display: none;
+  }
+}

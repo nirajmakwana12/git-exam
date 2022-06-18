@@ -1,0 +1,103 @@
+.contariner {
+  position: relative;
+}
+.ServiceContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 90px 120px;
+}
+.Fourblue {
+  position: absolute;
+  top: 10px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.heading h1 {
+  text-align: center;
+}
+
+.text {
+  padding-left: 70px;
+}
+.text h1 {
+  text-align: right;
+}
+.text p {
+  font-weight: 500;
+  text-align: right;
+}
+
+.thikLineContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.servierLine {
+  border-radius: 20px;
+  border-bottom: 10px solid #a9a9a9;
+  width: 4%;
+}
+
+.servierLinethinklink {
+  width: 13%;
+  border-bottom: 2px solid #a9a9a9;
+}
+
+.heading .servier {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.Tower {
+  height: 400px;
+  width: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+  .ServiceContainer {
+    padding: 25px 0px;
+  }
+  .Fourblue {
+    display: none;
+  }
+  .text p {
+    text-align: center;
+  }
+  .text {
+    padding: 20px 50px;
+  }
+  .text h1 {
+    text-align: center;
+  }
+  .towerscontain {
+    display: flex;
+    justify-content: center;
+  }
+  .servierLine {
+    width: 7%;
+  }
+  .servierLinethinklink {
+    width: 20%;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .Tower {
+    width: 90%;
+    height: 300px;
+  }
+  .text{
+    padding: 20px 20px;
+  }
+  .servierLine{
+    width: 15%;
+  }
+  .servierLinethinklink{
+    width: 37%;
+  }
+}
